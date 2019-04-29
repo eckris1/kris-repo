@@ -1,0 +1,9 @@
+
+ check  ports  on a  server:
+
+For  example  status  of  port  8170
+
+From one server type  anything  dee the  target  server gets  it
+
+echo "asdf" | nc vdalpuppetprd01 8170
+
