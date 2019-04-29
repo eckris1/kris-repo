@@ -7,3 +7,16 @@ From one server type  anything  dee the  target  server gets  it
 
 echo "asdf" | nc vdalpuppetprd01 8170
 
+root@rdalhdpworkt008:+sysconfig/network-scripts> cat ifcfg-eno6
+NAME=eno6
+UUID=b3f4f4fb-7a3e-45eb-9196-a6813cf5a9e0
+DEVICE=eno6
+BOOTPROTO=static
+ONBOOT=yes
+HWAADDR=48:df:37:69:05:88
+IPADDR=10.1.149.20
+IPV6INIT=no
+NETMASK=255.255.255.0
+GATEWAY=10.1.148.1
+NM_CONTROLLED=no
+TYPE=Ethernet
